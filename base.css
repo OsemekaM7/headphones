@@ -32,7 +32,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+/* article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -50,7 +50,7 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+} */
 
 
 /* Fonts and colors */
@@ -62,7 +62,7 @@ body {
 h1, h2, h3, h4, h5, h6, header {
 	font-family: 'Yeseva One', sans-serif;
 }
-article {
+/* article {
 }
 header {
 	border-bottom: 1px solid rgb(221,221,221);
@@ -84,19 +84,19 @@ footer a {
 }
 a {
 	color: #F80002;
-}
+} */
 
 
 /* Positioning and margins */
 
 @media (min-width: 1100px) {
 	body {
-		width: 1100px;
+		width: 100%;
 		margin: 0 auto;
 	}
 }
 
-article {
+/* article {
 	padding: 50px 15px;
 }
 article > *:first-child {
@@ -108,15 +108,15 @@ aside {
 header .right {
 	float: right;
 	margin: 0 10px 15px;
-}
+} */
 
 
 /* Header */
 header {
-	padding: 20px 0;
-	height: 80px;
+	/* padding: 20px 0;
+	height: 80px; */
 }
-header ul {
+/* header ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -136,27 +136,27 @@ header li.logo {
 }
 header a {
 	text-decoration: none;
-}
+} */
 
 
 /* Aside */
-
+/* 
 aside p {
 	border-radius: 10px;
 	padding: 20px 20px;
-}
+} */
 
 
 /* Footer */
 
-footer {
+/* footer {
 	padding: 5px 15px;
 	height: 80px;
-}
+} */
 
 
 /* Text styles and margins */
-
+/* 
 p {
 	margin-bottom: 15px;
 }
@@ -185,7 +185,7 @@ h5 {
 h6 {
 	font-weight: bold;
 	margin: 5px 0;
-}
+} */
 
 @media (max-width: 800px) {
   body.works_on_smartphone {

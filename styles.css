@@ -98,4 +98,26 @@
 body .container-header-hero {
     background-image: url(images/headphones_hero_1.jpg);
     background-color: black;
+    height: 800px;
+    border: 1px solid #979797;
+    /* background: #D8D8D8; */
 }
+
+/* What we do */
+
+.section-what-we-do {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.what-we-do {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 33%;
+}
+
