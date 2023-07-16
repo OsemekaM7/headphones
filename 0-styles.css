@@ -1,0 +1,26 @@
+/* Link styles */
+a:hover,
+a:active {
+  color: #FF6565;
+}
+
+/* Button styles */
+button:hover,
+button:active {
+  opacity: 0.9;
+}
+
+.section-1 {
+  background-image: url(images/headphones_hero_1.jpg);
+  /* background-size: cover; */
+}
+.container-header-hero {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+@media screen and (max-width: 480px) {
+  /* Your mobile styles go here */
+}
